@@ -1,0 +1,23 @@
+Results for the extraLargeArray
+insert 866.7255 ms
+append 3.662 ms
+
+Results for the largeArray
+insert 8.9123 ms
+append 724 μs
+
+Results for the mediumArray
+insert 190.6 μs
+append 155.3 μs
+
+Results for the smallArray
+insert 77 μs
+append 107.7 μs
+
+Results for the tinyArray
+insert 35 μs
+append 101 μs
+
+It seems that the larger the array gets the worse it scales with an expontential increase which is very noticeable from the large array to the extra large array with the extra large arrays scaling having the largest differential.
+
+From my understanding the extra large array is by far the slowest because it has to iterate through each item of it's index. Java Script can be a really slow language because it allows it's users to write inefficient code in part due to it's dynamic nature. I also did some research and read that some people see JS as a problematic language citing reasons of it's usage of "strange language elements".
