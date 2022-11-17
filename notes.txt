@@ -1,3 +1,6 @@
+insert = unshift
+append = push
+
 Results for the extraLargeArray
 insert 866.7255 ms
 append 3.662 ms

@@ -10,6 +10,8 @@ console.log(addToZero([-1, 4, 1]))
 // Results for the addToZero
 // insert 38.8 μs
 // append 75.3 μs
+//O(n^2)
+
 //ততততততততততততততত CHALLENGE TWO ততততততততততততততত
 function uniqueCharacters(str) {
     for(let i = 0; i < str.length; i++)
@@ -22,6 +24,8 @@ console.log(uniqueCharacters('monday'))
 // Results for the uniqueCharacters
 // insert 30.2 μs
 // append 67.4 μs
+//O(n^2)
+
 //ততততততততততততততত CHALLENGE THREE ততততততততততততততত
 function isPangram(str) {
     let strArr = str.toLowerCase()
@@ -38,6 +42,8 @@ console.log(isPangram('The quick brown fox jumps over the lazy dog'))
 // Results for the isPangram
 // insert 125.6 μs
 // append 78.7 μs
+//O(n)
+
 //ততততততততততততততত CHALLENGE FOUR ততততততততততততততত
 let str= 'hi hello'
 let strArr = str.split(' ')
@@ -50,6 +56,7 @@ console.log(sortedStrArr[0].length)
 // Results for the sortedStrArr
 // insert 36.7 μs
 // append 78.6 μs
+//O(n)
 
 // ───────────────────────────────────────
 // ───▐▀▄───────▄▀▌───▄▄▄▄▄▄▄─────────────
